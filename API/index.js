@@ -5,8 +5,8 @@ const app = express();
 //port Heroku or my port.
 const PORT = process.env.PORT || 8000;
 
-//Token to call git API (user:guilhermeprado98)
-const TOKEN = "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";
+//Personal Acess Token to call GIT API (cannot be in public repository)
+const TOKEN = "";
 
 app.use(express.json());
 
